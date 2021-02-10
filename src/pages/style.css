@@ -1,0 +1,27 @@
+body {
+    background-color:rgba(221, 160, 221, 0.562);
+    font-family: serif;
+}
+
+.todoMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+
+h1 {
+    letter-spacing: 5px;
+    font-size: 1.3rem;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.icons {
+    cursor: pointer;
+}
